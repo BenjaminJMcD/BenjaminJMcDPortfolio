@@ -12,7 +12,7 @@ body {
 }
 
 .nameOnImage {
-    position: fixed;
+    position: absolute;
     top: 220px;
     left: 12px;
     color:white;
@@ -40,3 +40,31 @@ body {
 .linkedInIcon {
     height: 30px;
 }
+
+/* PROJECTS CARDS */
+
+.projects {
+    display:grid;
+}
+
+.card {
+    width: 320px;
+    border: 1px black solid;
+}
+
+.projectsTitle {
+
+}
+
+.image {
+    width: 320px;
+    height: 200px;
+    border: 4px black solid;
+}
+
+.projectCodeIcon {
+    height: 18px;
+    position: relative;
+    top: 10px;
+}
+
