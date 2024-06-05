@@ -29,16 +29,30 @@ body {
 .aboutMeText {
     width: 320px;
 }
+
+.linkIconsHeader {
+    display:flex;
+}
+
+.resumeLink {
+    width: 230px;
+    margin-left: 10px;
+}
+
 .pdfIcon {
     height: 30px;
+    vertical-align:middle;
 }
 
 .githubIcon {
     height: 30px;
+    vertical-align:middle;
+    margin-right: 10px;
 }
 
 .linkedInIcon {
     height: 30px;
+    vertical-align:middle;
 }
 
 /* PROJECTS CARDS */
@@ -90,18 +104,47 @@ body {
 /* CONTACT */
 
 .footer-contact {
-
+    background-color: rgb(106, 106, 235);
+    width: 320px;
 }
 
 .contactTitle {
+    text-align: center;
+    padding-top: 20px;
+}
 
+.phoneContact {
+    margin-left: 30px;
+    display:flex;
+    margin-bottom: 10px;
 }
 
 .phoneIcon {
     height: 20px;
+    margin-right: 5px;
+}
+
+.phoneNumber {
+    margin:0;
+}
+
+.emailContact {
+    margin-left: 30px;
+    display: flex;
+    margin-bottom: 40px;
 }
 
 .emailIcon {
     height: 20px;
+    margin-right: 5px;
+}
+
+.email {
+    margin:0;
+}
+
+.linkIconsFooter {
+    margin-left: 70%;
+    padding-bottom: 20px;
 }
 
