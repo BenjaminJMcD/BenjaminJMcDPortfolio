@@ -43,17 +43,20 @@ body {
 
 /* PROJECTS CARDS */
 
+.projectsTitle {
+    width:320px;
+    text-align:center;
+}
+
 .projects {
     display:grid;
+    gap: 40px;
+    width: 320px;
 }
 
 .card {
     width: 320px;
     border: 1px black solid;
-}
-
-.projectsTitle {
-
 }
 
 .image {
@@ -62,9 +65,43 @@ body {
     border: 4px black solid;
 }
 
+.projectInfo {
+    display:grid;
+    grid-template: 50px 100px / 270px 50px;
+}
+
+.projectName {
+    margin-left: 30px;
+}
+
 .projectCodeIcon {
-    height: 18px;
+    height: 28px;
     position: relative;
     top: 10px;
+}
+
+.projectDescript {
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* CONTACT */
+
+.footer-contact {
+
+}
+
+.contactTitle {
+
+}
+
+.phoneIcon {
+    height: 20px;
+}
+
+.emailIcon {
+    height: 20px;
 }
 
