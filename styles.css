@@ -6,50 +6,67 @@ body {
     align-items: center;
 }
 
-.aboutMe {
-    margin-bottom: 40px;
+@media (max-width: 600px) {
+
+    .aboutMe {
+        margin-bottom: 40px;
+        border-top: 2px solid #C2C2C2;
+        background: linear-gradient(
+          25deg,
+          transparent 50.5%,
+          #5DCAD3 50%
+        );
+        max-width: 600px;
+    }
+    
+    .profilePic {
+        margin-left: 10%;
+        margin-right: 10%;
+        max-width: 400px;
+    }
+    
+    .nameOnImage {
+        position: absolute;
+        top: 280px;
+        margin-left: 15%;
+        color:white;
+        font-size: 36px;
+        text-wrap: wrap;
+    }
+    
+    .aboutMeHeader {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align:center;
+        font-size: 32px;
+    }
+    
+    .aboutMeText {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    
+    .iconsHeader {
+        display:flex;
+        margin-left: 12%;
+        margin-right: 18%;
+        justify-content: end;
+    }
+    
+    .githubIcon {
+        height: 30px;
+        vertical-align:middle;
+        margin-right: 10px;
+    }
+    
+    .linkedInIcon {
+        height: 30px;
+        vertical-align:middle;
+    }
 }
 
-.profilePic {
-    height: 320px;
-    width: 320px;
-}
 
-.nameOnImage {
-    position: absolute;
-    top: 220px;
-    left: 12px;
-    color:white;
-    font-size: 36px;
-    text-wrap: wrap;
-}
 
-.aboutMeHeader {
-    width: 320px;
-    text-align:center;
-    font-size: 28px;
-}
-
-.aboutMeText {
-    width: 320px;
-}
-
-.iconsHeader {
-    display:flex;
-    width: 320px;
-    justify-content: end;
-}
-
-.githubIcon {
-    height: 30px;
-    vertical-align:middle;
-    margin-right: 10px;
-}
-
-.linkedInIcon {
-    height: 30px;
-    vertical-align:middle;
-}
 
 /* PROJECTS CARDS */
 
@@ -100,7 +117,7 @@ body {
 /* CONTACT */
 
 .footer-contact {
-    background-color: rgb(106, 106, 235);
+    background-color: rgb(170, 147, 121);
     width: 320px;
 }
 
