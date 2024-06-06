@@ -28,7 +28,7 @@ body {
     .nameOnImage {
         position: absolute;
         top: 280px;
-        margin-left: 15%;
+        margin-left: 12%;
         color:white;
         font-size: 36px;
         text-wrap: wrap;
@@ -70,95 +70,104 @@ body {
 
 /* PROJECTS CARDS */
 
-.projectsTitle {
-    width:320px;
-    text-align:center;
-    font-size: 30px;
+@media (max-width: 600px) {
+
+    .projectsTitle {
+        margin-left: auto;
+        margin-right: auto;
+        text-align:center;
+        font-size: 32px;
+    }
+    
+    .projects {
+        display:grid;
+        gap: 40px;
+    }
+    
+    .card {
+        width: 320px;
+        border: 1px black solid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .image {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .projectInfo {
+        display:grid;
+        grid-template: 50px 100px / 270px 50px;
+    }
+    
+    .projectName {
+        margin-left: 50px;
+    }
+    
+    .projectCodeIcon {
+        height: 28px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .projectDescript {
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 }
 
-.projects {
-    display:grid;
-    gap: 40px;
-    width: 320px;
-}
-
-.card {
-    width: 320px;
-    border: 1px black solid;
-}
-
-.image {
-    width: 100%;
-    height: 200px;
-}
-
-.projectInfo {
-    display:grid;
-    grid-template: 50px 100px / 270px 50px;
-}
-
-.projectName {
-    margin-left: 30px;
-}
-
-.projectCodeIcon {
-    height: 28px;
-    position: relative;
-    top: 10px;
-}
-
-.projectDescript {
-    margin-left: 20px;
-    margin-right: 20px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
 
 /* CONTACT */
 
-.footer-contact {
-    background-color: rgb(170, 147, 121);
-    width: 320px;
+@media (max-width: 700px) {
+
+    .footer-contact {
+        background-color: rgb(170, 147, 121);
+    }
+    
+    .contactTitle {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 32px;
+    }
+    
+    .phoneContact {
+        margin-left: 30px;
+        display:flex;
+        margin-bottom: 10px;
+    }
+    
+    .phoneIcon {
+        height: 20px;
+        margin-right: 5px;
+    }
+    
+    .phoneNumber {
+        margin:0;
+    }
+    
+    .emailContact {
+        margin-left: 30px;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .emailIcon {
+        height: 20px;
+        margin-right: 5px;
+    }
+    
+    .email {
+        margin:0;
+    }
+    
+    .linkIconsFooter {
+        margin-left: 80%;
+        padding-bottom: 20px;
+    }
 }
 
-.contactTitle {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 30px;
-}
-
-.phoneContact {
-    margin-left: 30px;
-    display:flex;
-    margin-bottom: 10px;
-}
-
-.phoneIcon {
-    height: 20px;
-    margin-right: 5px;
-}
-
-.phoneNumber {
-    margin:0;
-}
-
-.emailContact {
-    margin-left: 30px;
-    display: flex;
-    margin-bottom: 40px;
-}
-
-.emailIcon {
-    height: 20px;
-    margin-right: 5px;
-}
-
-.email {
-    margin:0;
-}
-
-.linkIconsFooter {
-    margin-left: 70%;
-    padding-bottom: 20px;
-}
 
