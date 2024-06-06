@@ -6,6 +6,10 @@ body {
     align-items: center;
 }
 
+.aboutMe {
+    margin-bottom: 40px;
+}
+
 .profilePic {
     height: 320px;
     width: 320px;
@@ -30,18 +34,10 @@ body {
     width: 320px;
 }
 
-.linkIconsHeader {
+.iconsHeader {
     display:flex;
-}
-
-.resumeLink {
-    width: 220px;
-    margin-left: 10px;
-}
-
-.pdfIcon {
-    height: 30px;
-    vertical-align:middle;
+    width: 320px;
+    justify-content: end;
 }
 
 .githubIcon {
@@ -60,6 +56,7 @@ body {
 .projectsTitle {
     width:320px;
     text-align:center;
+    font-size: 30px;
 }
 
 .projects {
@@ -74,9 +71,8 @@ body {
 }
 
 .image {
-    width: 316px;
+    width: 100%;
     height: 200px;
-    border: 4px black solid;
 }
 
 .projectInfo {
@@ -111,6 +107,7 @@ body {
 .contactTitle {
     text-align: center;
     padding-top: 20px;
+    font-size: 30px;
 }
 
 .phoneContact {
