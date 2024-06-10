@@ -3,10 +3,18 @@ body {
     font-optical-sizing: auto;
     font-weight: 12px;
     font-style: normal;
-    align-items: center;
 }
 
+html {
+    max-width: 1200px;
+    margin:auto;
+}
+
+/* PHONE - 320-600px */
+
 @media (max-width: 600px) {
+
+    /* HEADER --- PHONE */
 
     .aboutMe {
         margin-bottom: 40px;
@@ -63,14 +71,8 @@ body {
         height: 30px;
         vertical-align:middle;
     }
-}
 
-
-
-
-/* PROJECTS CARDS */
-
-@media (max-width: 600px) {
+    /* PROJECTS CARDS --- PHONE */
 
     .projectsTitle {
         margin-left: auto;
@@ -117,12 +119,183 @@ body {
         grid-column-start: 1;
         grid-column-end: 3;
     }
+
+    /* CONTACT --- PHONE*/
+
+    .footer-contact {
+        background-color: rgb(170, 147, 121);
+    }
+    
+    .contactTitle {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 32px;
+    }
+    
+    .phoneContact {
+        margin-left: 30px;
+        display:flex;
+        margin-bottom: 10px;
+    }
+    
+    .phoneIcon {
+        height: 20px;
+        margin-right: 5px;
+    }
+    
+    .phoneNumber {
+        margin:0;
+    }
+    
+    .emailContact {
+        margin-left: 30px;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .emailIcon {
+        height: 20px;
+        margin-right: 5px;
+    }
+    
+    .email {
+        margin:0;
+    }
+    
+    .linkIconsFooter {
+        margin-left: 80%;
+        padding-bottom: 20px;
+    }
 }
 
+/* TABLET --- 600-1000px */
 
-/* CONTACT */
+@media (min-width: 600px) {
+    /* HEADER --- TABLET */
 
-@media (max-width: 700px) {
+    .aboutMe {
+
+        margin-bottom: 40px;
+        border-top: 2px solid #C2C2C2;
+        background: linear-gradient(
+          25deg,
+          transparent 50.5%,
+          #5DCAD3 50%
+        );
+        max-width: 1000px;
+    }
+    
+    .profilePic {
+        position:relative;
+        margin-left: 5%;
+        margin-top: 5%;
+        max-width: 450px;
+        z-index: 1;
+    }
+    
+    .nameOnImage {
+        color: white;
+        font-size: 52px;
+        transform: translate(520px, -470px);
+        text-shadow: 3px 4px 6px black;
+    }
+
+    .aboutMeSection {
+        width: 800px;
+        height: auto;
+        font-size: 18px;
+        background-color: white;
+        border: 1px solid black;
+        transform: translate(100px, -470px);
+        
+    }
+    
+    .aboutMeHeader {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align:center;
+        font-size: 32px;
+        background-color: white;
+        border: 1px solid black;
+        transform: translate(100px, -470px);
+    }
+    
+    .aboutMeText {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 18px;
+        background-color: white;
+        border: 1px solid black;
+        transform: translate(100px, -470px);
+    }
+    
+    .iconsHeader {
+        display:flex;
+        margin-left: 12%;
+        margin-right: 18%;
+        justify-content: end;
+    }
+    
+    .githubIcon {
+        height: 30px;
+        vertical-align:middle;
+        margin-right: 10px;
+    }
+    
+    .linkedInIcon {
+        height: 30px;
+        vertical-align:middle;
+    }
+
+    /* PROJECTS CARDS --- PHONE */
+
+    .projectsTitle {
+        margin-left: auto;
+        margin-right: auto;
+        text-align:center;
+        font-size: 32px;
+    }
+    
+    .projects {
+        display:grid;
+        gap: 40px;
+    }
+    
+    .card {
+        width: 320px;
+        border: 1px black solid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .image {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .projectInfo {
+        display:grid;
+        grid-template: 50px 100px / 270px 50px;
+    }
+    
+    .projectName {
+        margin-left: 50px;
+    }
+    
+    .projectCodeIcon {
+        height: 28px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .projectDescript {
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    /* CONTACT --- PHONE*/
 
     .footer-contact {
         background-color: rgb(170, 147, 121);
@@ -171,3 +344,8 @@ body {
 }
 
 
+/* LAPTOP --- 1000px+ */
+
+@media (min-width: 1000px) {
+
+}
