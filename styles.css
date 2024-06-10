@@ -186,17 +186,18 @@ html {
     }
     
     .profilePic {
-        position:relative;
+        float: left;
         margin-left: 5%;
         margin-top: 5%;
+        margin-right: 2%;
         max-width: 450px;
-        z-index: 1;
+        box-shadow: 2px 2px 5px;
     }
     
     .nameOnImage {
         color: white;
         font-size: 52px;
-        transform: translate(520px, -470px);
+        transform: translate(10px, 20px);
         text-shadow: 3px 4px 6px black;
     }
 
@@ -205,28 +206,22 @@ html {
         height: auto;
         font-size: 18px;
         background-color: white;
-        border: 1px solid black;
-        transform: translate(100px, -470px);
-        
+        box-shadow:5px;
+        margin-left: 120px;
+        box-shadow: 2px 2px 5px;
     }
     
     .aboutMeHeader {
-        margin-left: 10%;
-        margin-right: 10%;
-        text-align:center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        text-align: center;
         font-size: 32px;
-        background-color: white;
-        border: 1px solid black;
-        transform: translate(100px, -470px);
     }
     
     .aboutMeText {
         margin-left: 5%;
         margin-right: 5%;
-        font-size: 18px;
-        background-color: white;
-        border: 1px solid black;
-        transform: translate(100px, -470px);
+        text-align: justify;
     }
     
     .iconsHeader {
