@@ -207,12 +207,13 @@ html {
         background-color: white;
         box-shadow:5px;
         margin-left: 120px;
+        padding-bottom: 20px;
         box-shadow: 2px 2px 5px;
     }
     
     .aboutMeHeader {
         padding-top: 40px;
-        padding-bottom: 20px;
+        padding-bottom: 28px;
         text-align: center;
         font-size: 36px;
     }
@@ -233,11 +234,12 @@ html {
     .githubIcon {
         height: 38px;
         margin-right: 10px;
-        margin-bottom: 20px;
+        vertical-align: middle;
     }
     
     .linkedInIcon {
         height: 40px;
+        vertical-align: middle;
     }
 
     /* PROJECTS CARDS --- TABLET */
@@ -320,28 +322,29 @@ html {
     
     .phoneIcon {
         height: 40px;
-        margin-right: 5px;
+        margin-right: 10px;
         margin-left: 30px;
     }
     
     .phoneNumber {
-        margin:0;
-        vertical-align:bottom;
+        font-size: 18px;
+        margin-top: 10px;
     }
     
     .emailContact {
         margin-left: 30px;
         display: flex;
-        margin-bottom: 20px;  }
+    }
     
     .emailIcon {
         height: 40px;
-        margin-right: 5px;
+        margin-right: 10px;
         margin-left: 30px;
     }
     
     .email {
-        margin:0;
+        font-size: 18px;
+        margin-top: 10px;
     }
     
     .linkIconsFooter {
