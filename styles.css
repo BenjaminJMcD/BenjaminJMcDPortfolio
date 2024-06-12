@@ -5,10 +5,10 @@ body {
     font-style: normal;
 }
 
-html {
+/* html {
     max-width: 1200px;
     margin:auto;
-}
+} */
 
 /* PHONE - 320-600px */
 
@@ -123,7 +123,7 @@ html {
     /* CONTACT --- PHONE*/
 
     .footer-contact {
-        background-color: rgb(170, 147, 121);
+        background-color: #5DCAD3;
     }
     
     .contactTitle {
@@ -182,6 +182,8 @@ html {
           #5DCAD3 50%
         );
         width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .profilePic {
@@ -246,6 +248,8 @@ html {
 
     .main {
         width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .projectsTitle {
@@ -357,5 +361,190 @@ html {
 /* LAPTOP --- 1000px+ */
 
 @media (min-width: 1000px) {
+
+    /* ABOUT ME --- LAPTOP */
+
+    .aboutMe {
+        margin-bottom: 40px;
+        border-top: 2px solid #C2C2C2;
+        background: linear-gradient(
+          12deg,
+          transparent 40%,
+          #5DCAD3 10%
+        );
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .profilePic {
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 2%;
+        max-width: 450px;
+        box-shadow: 2px 2px 5px;
+    }
+    
+    .nameOnImage {
+        color: white;
+        font-size: 52px;
+        transform: translate(10px, 20px);
+        text-shadow: 3px 4px 6px black;
+    }
+
+    .aboutMeSection {
+        width: 800px;
+        height: auto;
+        font-size: 18px;
+        background-color: white;
+        box-shadow:5px;
+        margin-left: 120px;
+        padding-bottom: 20px;
+        box-shadow: 2px 2px 5px;
+    }
+    
+    .aboutMeHeader {
+        padding-top: 40px;
+        padding-bottom: 28px;
+        text-align: center;
+        font-size: 36px;
+    }
+    
+    .aboutMeText {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+        text-align: justify;
+    }
+    
+    .iconsHeader {
+        display:flex;
+        margin-right: 22px;
+        justify-content: end;
+    }
+    
+    .githubIcon {
+        height: 38px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    
+    .linkedInIcon {
+        height: 40px;
+        vertical-align: middle;
+    }
+
+    /* PROJECTS CARDS --- LAPTOP */
+
+    .main {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projectsTitle {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        text-align:center;
+        font-size: 40px;
+    }
+    
+    .projects {
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+        grid-auto-rows: 450px;
+        gap: 40px;
+        justify-content:center;
+    }
+    
+    .card {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        box-shadow: 4px 4px 10px;
+    }
+    
+    .image {
+        width: 400px;
+        height: 256px;
+    }
+    
+    .projectInfo {
+        display:grid;
+        grid-template: 60px 100px / 340px 20px;
+    }
+    
+    .projectName {
+        margin-left: 50px;
+        font-size: 28px;
+    }
+    
+    .projectCodeIcon {
+        height: 36px;
+        position: relative;
+        top: 25px;
+
+    }
+    
+    .projectDescript {
+        margin-left: 30px;
+        font-size: 19px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    /* CONTACT --- LAPTOP */
+
+    .footer-contact {
+        background-color: #5DCAD3;
+    }
+    
+    .contactTitle {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+    
+    .phoneContact {
+        margin-left: 30px;
+        display:flex;
+        margin-bottom: 10px;
+    }
+    
+    .phoneIcon {
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 220px;
+    }
+    
+    .phoneNumber {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .emailContact {
+        margin-left: 30px;
+        display: flex;
+    }
+    
+    .emailIcon {
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 220px;
+    }
+    
+    .email {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .linkIconsFooter {
+        margin-left: 75%;
+        padding-bottom: 20px;
+    }
 
 }
