@@ -18,7 +18,7 @@ body {
           transparent 50.5%,
           #5DCAD3 50%
         );
-        max-width: 600px;
+        width: 100vw;
     }
     
     .profilePic {
@@ -28,17 +28,22 @@ body {
     }
     
     .nameOnImage {
-        position: absolute;
-        top: 280px;
+        transform: translate(0px, -120px);
         margin-left: 12%;
         color:white;
         font-size: 36px;
         text-wrap: wrap;
     }
+
+    .aboutMeSection {
+        transform: translateY(-100px);
+        height: 240px;
+    }
     
     .aboutMeHeader {
         margin-left: 10%;
         margin-right: 10%;
+        margin-top: 0px;
         text-align:center;
         font-size: 32px;
     }
@@ -175,14 +180,14 @@ body {
           transparent 50.5%,
           #5DCAD3 50%
         );
-        width: 1250px;
+        width: 100vw;
         margin-left: auto;
         margin-right: auto;
     }
     
     .profilePic {
         float: left;
-        margin-left: 10%;
+        margin-left: 5%;
         margin-top: 5%;
         margin-right: 2%;
         max-width: 450px;
@@ -197,12 +202,12 @@ body {
     }
 
     .aboutMeSection {
-        width: 800px;
+        width: 70vw;
         height: auto;
         font-size: 18px;
         background-color: white;
         box-shadow:5px;
-        margin-left: 240px;
+        margin-left: 15vw;
         padding-bottom: 20px;
         box-shadow: 2px 2px 5px;
     }
@@ -210,6 +215,7 @@ body {
     .aboutMeHeader {
         padding-top: 40px;
         padding-bottom: 28px;
+        margin-bottom: 0px;
         text-align: center;
         font-size: 36px;
     }
@@ -241,7 +247,7 @@ body {
     /* PROJECTS CARDS --- TABLET */
 
     .main {
-        width: 1000px;
+        width: 100vw;
         margin-left: auto;
         margin-right: auto;
     }
