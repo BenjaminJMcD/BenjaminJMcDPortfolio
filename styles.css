@@ -24,7 +24,7 @@ body {
     .profilePic {
         margin-left: 10%;
         margin-right: 10%;
-        max-width: 400px;
+        width: 80%;
     }
     
     .nameOnImage {
@@ -303,7 +303,8 @@ body {
     /* CONTACT --- TABLET*/
 
     .footer-contact {
-        background-color: #5DCAD3
+        background-color: #5DCAD3;
+        width: 100vw;
     }
     
     .contactTitle {
