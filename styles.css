@@ -182,7 +182,7 @@ body {
     
     .profilePic {
         float: left;
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 5%;
         margin-right: 2%;
         max-width: 450px;
@@ -202,7 +202,7 @@ body {
         font-size: 18px;
         background-color: white;
         box-shadow:5px;
-        margin-left: 120px;
+        margin-left: 240px;
         padding-bottom: 20px;
         box-shadow: 2px 2px 5px;
     }
